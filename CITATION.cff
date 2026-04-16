@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this dataset or code, please cite as below."
+title: "vector-uav-proximity-dataset: Proprioceptive Proximity Perception for a Vector-Thrust Hexarotor UAV"
+authors:
+  - family-names: Luo
+    given-names: Daixun
+date-released: 2026-04-01
+license: MIT
+repository-code: "https://github.com/YOUR_USERNAME/vector-uav-proximity-dataset"
+keywords:
+  - UAV
+  - hexarotor
+  - ground effect
+  - wall effect
+  - proprioceptive sensing
+  - PINN
+  - physics-informed neural network
+  - PX4
+  - proximity estimation
+  - obstacle avoidance

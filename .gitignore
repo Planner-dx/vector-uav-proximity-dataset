@@ -1,0 +1,67 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Data & models (large files — host on Releases or external storage)
+data/raw/*.ulg
+data/raw/**/*.ulg
+*.pt
+*.pth
+*.pkl
+*.h5
+*.hdf5
+
+# Exception: keep placeholder README files in data dirs
+!data/raw/.gitkeep
+!data/raw/ground_effect/.gitkeep
+!data/raw/wall_effect/.gitkeep
+!data/raw/ceiling_effect/.gitkeep
+
+# Output figures & logs
+*.png
+*.pdf
+*.svg
+training_log.csv
+comparison_results.json
+loss_curve.png
+prediction_vs_truth.png
+error_vs_height.png
+confusion_matrix.png
+overlay_on_paper*.png
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# ROS
+*.bag
+devel/
+build/
+install/
+log/
+
+# PX4
+*.elf
+*.bin
+*.map

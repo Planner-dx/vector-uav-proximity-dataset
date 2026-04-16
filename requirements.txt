@@ -1,0 +1,17 @@
+# Core
+numpy==1.26.4
+torch>=2.0.0
+scikit-learn>=1.3.0
+pandas>=2.0.0
+scipy>=1.11.0
+matplotlib>=3.7.0
+
+# PX4 log parsing
+pyulog>=0.9.0
+
+# ROS / MAVROS (install via apt, not pip)
+# sudo apt install ros-noetic-mavros ros-noetic-mavros-extras
+# rospy is part of ROS installation
+
+# Optional: Jupyter for exploration
+# jupyter>=1.0.0
